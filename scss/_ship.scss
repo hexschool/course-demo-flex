@@ -1,0 +1,53 @@
+.ships, .aims{
+  position: absolute;
+  top: 50px;
+  width: $w;
+  height: $w;
+  .item{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: $w-grid;
+    width: $w-grid;
+    z-index: 10;
+    &.big{
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/ship-m.png?alt=media&token=74656b0a-1a17-4866-a846-7be2ce47b3e3');
+    }
+    &.sm{
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/ship-s.png?alt=media&token=3089f5e9-70a2-40be-90f1-4f0d9649c21b');
+    }
+    &.power{
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/circle-m.png?alt=media&token=4f1b10ef-0242-4ff2-87a7-32843536d3c5');
+    }
+    &.normal{
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/circle-s.png?alt=media&token=e28f111f-ef53-44d2-af48-266c281b5c09');
+    }
+    &.hex{
+      background-image: url('https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/hex.png?alt=media&token=65bbd591-1752-4a81-8885-563228189661');
+    }
+  }
+  .island{
+    background-image: url(../img/island.png);
+    width: $w;
+    height: $w;
+    background-size: cover;
+    position: relative;
+    .hex{
+      position: absolute;
+      top: 50%;
+    }
+  }
+  .camp{
+    border-radius: 3px;
+    border: $w/100 solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    display: flex;
+    .area-sleep{
+      background-color: rgba(64,187,106,0.2);
+    }
+    .area-work{
+      background-color: rgba(254,100,110,0.2);
+    }
+  }
+  
+}
