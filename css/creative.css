@@ -429,6 +429,12 @@ body code {
           align-items: center;
 }
 
+.p7-1 .ships .big {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
 #p8-1 .aims {
   display: -webkit-box;
   display: -ms-flexbox;

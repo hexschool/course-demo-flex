@@ -139,6 +139,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .big{
+      order: 1;
+    }
   }
 }
 
