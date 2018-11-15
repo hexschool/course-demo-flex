@@ -427,9 +427,34 @@ body code {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .p7-1 .ships .big {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.p7-2 .ships {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.p7-2 .ships .big {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
@@ -465,6 +490,18 @@ body code {
   height: 40%;
 }
 
+#p8-2 .area-sleep {
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+#p8-2 .area-work {
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+}
+
 #p8-3 .ships .island {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -491,6 +528,29 @@ body code {
 #p8-3 .aims .camp {
   width: 40%;
   height: 90%;
+}
+
+#p8-3 .camp {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#p8-3 .area-sleep {
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+  -webkit-box-flex: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
+}
+
+#p8-3 .area-work {
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
 }
 
 #p9-1 .ships {
