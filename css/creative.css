@@ -165,7 +165,7 @@ body code {
 }
 
 .ships .item.crown, .aims .item.crown {
-  background-image: url("https://hexschool.github.io/course-demo-flex/img/crown.png");
+  background-image: url("https://github.com/hexschool/course-demo-flex/blob/master/img/crown.png?raw=true");
 }
 
 .ships .island, .aims .island {
