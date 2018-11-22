@@ -332,3 +332,13 @@
     }
   }
 }
+.p10-1{
+  .ships{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .crown{
+      align-self: flex-start;
+    }
+  }
+}

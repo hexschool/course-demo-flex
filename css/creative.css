@@ -145,23 +145,27 @@ body code {
 }
 
 .ships .item.big, .aims .item.big {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/ship-m.png?alt=media&token=74656b0a-1a17-4866-a846-7be2ce47b3e3");
+  background-image: url("https://hexschool.github.io/course-demo-flex/img/ship-m.png");
 }
 
 .ships .item.sm, .aims .item.sm {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/ship-s.png?alt=media&token=3089f5e9-70a2-40be-90f1-4f0d9649c21b");
+  background-image: url("https://hexschool.github.io/course-demo-flex/img/ship-s.png");
 }
 
 .ships .item.power, .aims .item.power {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/circle-m.png?alt=media&token=4f1b10ef-0242-4ff2-87a7-32843536d3c5");
+  background-image: url("https://hexschool.github.io/course-demo-flex/img/circle-m.png");
 }
 
 .ships .item.normal, .aims .item.normal {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/circle-s.png?alt=media&token=e28f111f-ef53-44d2-af48-266c281b5c09");
+  background-image: url("https://hexschool.github.io/course-demo-flex/img/circle-s.png");
 }
 
 .ships .item.hex, .aims .item.hex {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/flex-pirate.appspot.com/o/hex.png?alt=media&token=65bbd591-1752-4a81-8885-563228189661");
+  background-image: url("https://hexschool.github.io/course-demo-flex/img/hex.png");
+}
+
+.ships .item.crown, .aims .item.crown {
+  background-image: url("https://hexschool.github.io/course-demo-flex/img/crown.png");
 }
 
 .ships .island, .aims .island {
@@ -729,5 +733,22 @@ body code {
   display: flex;
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+}
+
+.p10-1 .ships {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.p10-1 .ships .crown {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 /*# sourceMappingURL=creative.css.map */
